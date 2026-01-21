@@ -4,8 +4,12 @@ import { defineConfig } from "vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/tech-test/",
+  base: "/",
   plugins: [react()],
+
+  build: {
+    copyPublicDir: true,
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
