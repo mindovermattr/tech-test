@@ -1,0 +1,14 @@
+.button {
+  padding: 28.75px;
+  &--contained {
+    color: var(--main-color);
+    background: var(--gradient);
+    border-radius: 15px;
+  }
+  &--outlined {
+    border-radius: 15px;
+    border: 1px solid var(--main-color);
+  }
+  &--text {
+  }
+}

@@ -1,0 +1,32 @@
+.header {
+  padding-top: 50px;
+  display: flex;
+  justify-content: space-between;
+
+  &__title {
+    font-family: Halvar Engschrift;
+    font-size: 64px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--main-color);
+  }
+  &__link {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  &__highlighted {
+    color: var(--accent-color);
+  }
+}
+
+.controls {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  &__button {
+    border: 1px solid;
+    border-image: var(--radial-border) 1;
+  }
+}

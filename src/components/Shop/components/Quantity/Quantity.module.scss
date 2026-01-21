@@ -1,0 +1,30 @@
+.quantity {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 26px 38px 36px 38px;
+  &-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 20px;
+  }
+  &__label {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--gray-color);
+  }
+  &__value {
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--main-color);
+  }
+  &-container {
+    margin-top: 10px;
+  }
+}
+
+.range-slider {
+  height: 10px;
+}

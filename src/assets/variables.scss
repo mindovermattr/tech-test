@@ -1,0 +1,14 @@
+:root {
+  --main-color: #fff;
+  --accent-color: #0ba5ff;
+  --secondary-color: rgba(255, 255, 255, 0.1);
+  --green-color: #5ae338;
+  --gray-color: #8c8c8c;
+  --alert-color: #e83737;
+  --success-color: #3c832a;
+
+  --gradient: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(153, 153, 153, 0.16) 100%);
+  --radial-border: radial-gradient(circle at center, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0) 100%);
+
+  --container-width: 96vw;
+}

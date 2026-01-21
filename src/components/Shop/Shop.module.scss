@@ -1,0 +1,15 @@
+.shop {
+  display: flex;
+  gap: 50px;
+  margin-top: 68px;
+  &__content {
+    width: 1430px;
+    background-color: magenta;
+  }
+  &__select {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+}

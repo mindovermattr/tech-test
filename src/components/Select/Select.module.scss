@@ -1,0 +1,26 @@
+.select {
+  color: var(--main-color);
+  font-size: 36px;
+  font-weight: 500;
+  padding: 28px 40px;
+  border-radius: 20px;
+
+  &__button {
+    width: 100%;
+    text-transform: uppercase;
+    line-height: 43px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  &__icon {
+    transition: all 0.3s;
+    &--open {
+      rotate: 90deg;
+    }
+  }
+}

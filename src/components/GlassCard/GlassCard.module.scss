@@ -1,0 +1,5 @@
+.glass-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.06) 0%, rgba(153, 153, 153, 0.05) 100%);
+  border: 1px solid;
+  border-image: var(--radial-border) 1;
+}

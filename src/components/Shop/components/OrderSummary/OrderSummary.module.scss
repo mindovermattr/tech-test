@@ -1,0 +1,26 @@
+.summary {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  padding: 26px 38px;
+  border-radius: 20px;
+  margin-top: 10px;
+  &__label {
+    font-size: 36px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: var(--gray-color);
+  }
+  &__value {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 36px;
+    font-weight: 500;
+    color: var(--main-color);
+  }
+  &__icon {
+    width: 36px;
+    height: 36px;
+  }
+}

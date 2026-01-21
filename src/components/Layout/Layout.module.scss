@@ -1,0 +1,12 @@
+.layout {
+  height: 100vh;
+  background: linear-gradient(270deg, rgba(7, 7, 7, 0.98), rgba(20, 20, 20, 0.98) 100%), url("/images/main-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  max-width: calc(100vw - 100px);
+  margin: 0 auto;
+}
